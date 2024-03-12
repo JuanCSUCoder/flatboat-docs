@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Documentation of Flatboat Project a CLI tool that integrates Docker and Kubernetes tooling into the ROS workspace workflow."
     >
       <HomepageHeader />
       <main>
