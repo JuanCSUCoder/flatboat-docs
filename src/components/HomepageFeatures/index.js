@@ -8,8 +8,9 @@ const FeatureList = [
     Svg: null,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Flatboat was designed to provide the best developer experience with{" "}
+        <strong>ROS2 workflow</strong>, running over <strong>Docker</strong> and{" "}
+        <strong>K8s</strong>.
       </>
     ),
   },
@@ -18,18 +19,18 @@ const FeatureList = [
     Svg: null,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Stop thinking about compatibility and replicability issues. With
+        Flatboat you can just focus on your implementation.
       </>
     ),
   },
   {
-    title: "Powered by React",
+    title: "Powered by Rust",
     Svg: null,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        This CLI tool was developed with Rust, to ensure low level
+        system-control and memory safety. :D
       </>
     ),
   },
