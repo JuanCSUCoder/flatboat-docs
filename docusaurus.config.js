@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Flatboat",
   tagline:
-    "The integration of Docker and Kubernetes tooling into the ROS workspace workflow.",
+    "The integration of Docker and Kubernetes tooling into the ROS workflow.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
