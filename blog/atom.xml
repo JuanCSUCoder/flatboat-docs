@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/flatboat-docs/blog</id>
-    <title>Flatboat Documentation Blog</title>
+    <title>Flatboat Blog</title>
     <updated>2024-03-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/flatboat-docs/blog"/>
-    <subtitle>Flatboat Documentation Blog</subtitle>
+    <subtitle>Flatboat Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/flatboat-docs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to Flatboat Documentation!]]></title>
