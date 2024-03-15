@@ -1,0 +1,64 @@
+---
+sidebar_position: 2
+---
+
+# Install Flatboat
+
+Flatboat only works on Linux based systems, compatible with **Docker Engine**.
+
+## Install the Dependencies
+
+### Install Docker Engine
+
+The main thing required to run **Flatboat** is the **Docker Engine**. Alternative container engines like *Podman* may work, but **are not officially supported**.
+
+You can install **Docker** following the instructions on their [documentation](https://docs.docker.com/engine/install/).
+
+- It's not recommended to use a Docker rootless installation.
+- It's recommended to add your `$USER` to `docker` group.
+
+### Install NodeJS and NPM
+
+The next thing is **NodeJS** runtime for javascript applications and **NPM** for installing packages. You can download these command-line tools from the following sources:
+
+- Official Download from [NodeJS Website](https://nodejs.org/en)
+- Alternative Download for Ubuntu/Debian based systems from [NodeSource (Ubuntu/Debian)](https://github.com/nodesource/distributions?tab=readme-ov-file#debian-and-ubuntu-based-distributions)
+- Other installation options from [NodeSource](https://github.com/nodesource/distributions?tab=readme-ov-file)
+
+:::warning
+It is possible in the future that NodeJS removes NPM from its default installation, which may require another installation.
+:::
+
+### Install Devcontainer packages
+
+Devcontainer is an specification created by Microsoft for development inside containers, which is used by **Flatboat**. Therefore, is required to install with the following command:
+
+```bash
+npm i -g @devcontainers/cli
+```
+
+### Install Rust and Cargo
+
+**Flatboat** is developed in *Rust programming language*, and published on [*crates.io*](https://crates.io/crates/flatboat). So in order to install it the **Cargo** package manager is required, and can be installed with the following command:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+When prompted, is recommended to choose the **default installation**.
+
+## Run the Command
+
+Install Flatboat with `cargo`
+
+```bash
+  cargo install flatboat
+```
+
+## Usage
+
+Learn about Flatboat with:
+
+```bash
+  flatboat -h
+```
