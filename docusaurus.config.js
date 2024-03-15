@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Flatboat Documentation",
+  title: "Flatboat",
   tagline:
     "The integration of Docker and Kubernetes tooling into the ROS workspace workflow.",
   favicon: "img/favicon.ico",
