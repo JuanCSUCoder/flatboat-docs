@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkflatboat_docs=self.webpackChunkflatboat_docs||[]).push([[1346],{9906:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/flatboat-docs/blog/tags/hello","allTagsPath":"/flatboat-docs/blog/tags","count":2,"unlisted":false}')}}]);
