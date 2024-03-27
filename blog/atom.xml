@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/flatboat-docs/blog</id>
+    <id>https://juancsucoder.github.io/flatboat-docs/blog</id>
     <title>Flatboat Blog</title>
     <updated>2024-03-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/flatboat-docs/blog"/>
+    <link rel="alternate" href="https://juancsucoder.github.io/flatboat-docs/blog"/>
     <subtitle>Flatboat Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/flatboat-docs/img/favicon.ico</icon>
+    <icon>https://juancsucoder.github.io/flatboat-docs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome to Flatboat Documentation!]]></title>
-        <id>https://your-docusaurus-site.example.com/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</id>
-        <link href="https://your-docusaurus-site.example.com/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs"/>
+        <id>https://juancsucoder.github.io/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</id>
+        <link href="https://juancsucoder.github.io/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs"/>
         <updated>2024-03-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello, you are seeing the brand new Flatboat documentation. Flatboat is an open-source project started at Robotics and Automation Society group at the Pontifical Xavierian University. It aims to aid developers on building robotics applications inside containers with almost full device, network and graphical support.]]></summary>
         <content type="html"><![CDATA[<p>Hello, you are seeing the brand new Flatboat documentation. Flatboat is an open-source project started at Robotics and Automation Society group at the Pontifical Xavierian University. It aims to aid developers on building robotics applications inside containers with almost full device, network and graphical support.</p>

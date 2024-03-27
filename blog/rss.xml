@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Flatboat Blog</title>
-        <link>https://your-docusaurus-site.example.com/flatboat-docs/blog</link>
+        <link>https://juancsucoder.github.io/flatboat-docs/blog</link>
         <description>Flatboat Blog</description>
         <lastBuildDate>Fri, 15 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome to Flatboat Documentation!]]></title>
-            <link>https://your-docusaurus-site.example.com/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</link>
-            <guid>https://your-docusaurus-site.example.com/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</guid>
+            <link>https://juancsucoder.github.io/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</link>
+            <guid>https://juancsucoder.github.io/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs</guid>
             <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Hello, you are seeing the brand new Flatboat documentation. Flatboat is an open-source project started at Robotics and Automation Society group at the Pontifical Xavierian University. It aims to aid developers on building robotics applications inside containers with almost full device, network and graphical support.]]></description>
             <content:encoded><![CDATA[<p>Hello, you are seeing the brand new Flatboat documentation. Flatboat is an open-source project started at Robotics and Automation Society group at the Pontifical Xavierian University. It aims to aid developers on building robotics applications inside containers with almost full device, network and graphical support.</p>
