@@ -92,7 +92,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Get started!",
                 to: "/docs/intro",
               },
             ],
@@ -100,10 +100,10 @@ const config = {
           {
             title: "Community",
             items: [
-              {
+              /* {
                 label: "Discord",
                 href: "#",
-              },
+              }, */
               {
                 label: "GitHub",
                 href: "https://github.com/JuanCSUCoder",
