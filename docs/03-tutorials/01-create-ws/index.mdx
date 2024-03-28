@@ -8,7 +8,9 @@ sidebar_position: 1
 
 It is required to have Flatboat following [Install Section](../../02-install.mdx).
 
-## Command
+## Steps
+
+### Run the Flatboat Command
 
 ```bash
 flatboat workspace create ws_name
@@ -17,3 +19,43 @@ flatboat workspace create ws_name
 :::warning
 This command may change in a near future!
 :::
+
+![command_gif](./ws_creation.gif)
+
+### Use the Workspace
+
+#### Start Nodes with Flatboat ROS2
+
+For example, you can run turtlesim on the created environment:
+
+```bash
+flatboat ros2 "run turtlesim turtlesim_node"
+```
+
+:::warning
+This command may change in a near future!
+:::
+
+![turtlesim_node](./turtlesim_node.gif)
+
+```bash
+flatboat ros2 "run turtlesim turtle_teleop_key"
+```
+
+![turtle_teleop](./turtle_teleop.gif)
+
+#### Open Devcontainer in VSCode
+
+1. Make sure you have *Remote Development* extensions installed:
+
+![remote_dev](./remote.png)
+
+2. Open the workspace in VSCode with the following command, inside the workspace folder:
+
+```bash
+code .
+```
+
+3. Click on re-open
+
+![reopen](./reopen.png)
