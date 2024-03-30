@@ -1,0 +1,89 @@
+---
+authors: juancsucoder
+---
+
+# v0.2.0 Rich Raven is Out!
+
+The 0.2.0 release is focused on improving developer experience by easing auto-completion configuration, and **exec** and **ros2** command syntax. All of that, while maintaining backward compatibility of core features.
+
+[Get Flatboat](/docs/install/)
+
+[Go to Release (Binary Download)](https://github.com/JuanCSUCoder/flatboat-cli/releases/tag/0.2.0)
+
+## Simplified Auto-Completion
+
+In previous versions, it was required to manually create a completion file for your shell, and make sure it was updated. However, with this new release, a single flatboat command can be included in your `.bashrc`, `config.fish`, or almost any shell configuration file, to load and update your completions automatically.
+
+For bash:
+
+```bash
+# Flatboat completion
+source <(flatboat completion bash)
+```
+
+For fish:
+
+```bash
+# Flatboat completion
+flatboat completion fish | source
+```
+
+## Simplified ROS2 and Exec Commands
+
+In previous versions, it was required to use quotation marks on `flatboat ros2` and `flatboat exec` commands, to pass the arguments inside the devcontainer. However, in this new release, you can just continue writing the command without any other special indication.
+
+For example:
+
+```bash
+# Previous version
+flatboat ros2 "run turtlesim turtlesim_node"
+
+# Now
+flatboat ros2 run turtlesim turtlesim_node
+```
+
+```bash
+# Previous version
+flatboat exec "echo Hello"
+
+# Now
+flatboat exec echo Hello
+```
+
+## Custom Template Images for Workspace Creation
+
+Flatboat now allows the creation of workspaces by selecting one from the default template repository or using a custom one provided by its container registry URL. 
+
+To do so, you can use the following syntax:
+
+```bash
+Usage: flatboat workspace create <WS_NAME> [WS_IMAGE]
+```
+
+For example:
+
+```bash
+flatboat workspace create ros2_ws iron_nogpu
+```
+
+Output:
+
+```bash
+...
+INFO  flatboat::features::workspace > Trying to pull from ghcr.io/JuanCSUCoder/flatboat-templates/roboten_ws_iron_nogpu ...
+...
+```
+
+Or:
+
+```bash
+flatboat workspace create ros2_ws GitHubUser/my_own_templates/template_name
+```
+
+Output:
+
+```bash
+...
+INFO  flatboat::features::workspace > Trying to pull from ghcr.io/GitHubUser/my_own_templates/template_name ...
+...
+```
