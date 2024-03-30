@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkflatboat_docs=self.webpackChunkflatboat_docs||[]).push([[893],{474:o=>{o.exports=JSON.parse('{"permalink":"/flatboat-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

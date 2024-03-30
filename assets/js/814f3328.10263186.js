@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkflatboat_docs=self.webpackChunkflatboat_docs||[]).push([[472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Flatboat Documentation!","permalink":"/flatboat-docs/blog/2024/03/15/welcome-to-flatboat-docs","unlisted":false}]}')}}]);
